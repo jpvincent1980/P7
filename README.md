@@ -1,7 +1,4 @@
-![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
-![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
-![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)
-
+![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
 ![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 
 # Projet P7
