@@ -3,7 +3,6 @@ env/
 Exercices/
 Livrables/
 *.txt
-*.csv
 *.pdf
 test.py
 main.py

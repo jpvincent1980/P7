@@ -14,7 +14,7 @@ def bruteforce(file, max_cost=500):
                                row["profit"]) / 100}
             shares_list.append(shares_dict)
     selected_list = []
-    for i in range(1, len(shares_list) +1):
+    for i in range(len(shares_list) +1):
         for element in itertools.combinations(shares_list, i):
             sum_cost = 0
             sum_gain = 0
