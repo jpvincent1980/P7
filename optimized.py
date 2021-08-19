@@ -2,12 +2,12 @@ import csv
 
 
 def optimized(file, maximum):
-    # Keeps track of the original maximum value to print it at the end
+    # We keep track of the original maximum value to print it at the end
     original_maximum = maximum
-    # Converts Euros to Cents to get only integers as they will be used as
+    # We convert Euros to Cents to get only integers as they will be used as
     # indexes in the upcoming matrix
     maximum = maximum * 100
-    # Imports external data and converts them into a list of dictionaries
+    # We import external data and convert them into a list of dictionaries
     with open(file, newline="") as csv_file:
         reader = csv.DictReader(csv_file)
         shares_list = []
@@ -21,7 +21,7 @@ def optimized(file, maximum):
                                              int(float(row["profit"]) * 100) / 1000000}
                 shares_list.append(shares_dict)
     total_nb_shares = len(shares_list)
-    # Initialize a matrix where each line represents a share and each column
+    # We initialize a matrix where each line represents a share and each column
     # represents an investment cost. Each cell consists of a dictionary made of
     # the maximum profit possible and a boolean that double checks if the
     # maximum profit possible comes from that cell or the one above.
